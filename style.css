@@ -11,7 +11,7 @@ body {
 }
 
 
-#planetImage {
+.planetImage {
     width: 100%;
 }
 
@@ -22,5 +22,5 @@ body {
 
 .mercury {
     height: auto;
-    width: 1,91vw;
+    width: 1.91vw;
 }
