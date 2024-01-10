@@ -1,0 +1,12 @@
+Himmelskörper	Größe in vw
+Sonne	546.50 vw
+Merkur	1.91 vw
+Venus	4.75 vw
+Erde	5.00 vw
+Mars	2.66 vw
+Mond	1.36 vw
+Jupiter	54.87 vw
+Saturn	45.70 vw
+Uranus	19.90 vw
+Neptun	19.32 vw
+Pluto	0.93 vw
