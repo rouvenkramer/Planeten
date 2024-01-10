@@ -5,6 +5,19 @@ body {
     color: lime;
 }
 
+.planetLinks {
+    box-sizing: border-box;
+    padding: 5%;
+    text-align: center;
+}
+
+.planetLinks a {
+    color: dimgray;
+    font-size: x-large;
+    text-decoration: none;
+    margin: 8px;
+}
+
 
 .planet {
     width: 40%;
