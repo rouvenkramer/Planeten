@@ -5,8 +5,22 @@ body {
     color: lime;
 }
 
-.planet {
 
-    height: 400px;
+.planet {
     width: 40%;
+}
+
+
+#planetImage {
+    width: 100%;
+}
+
+.earth {
+    height: auto;
+    width: 5vw;
+}
+
+.mercury {
+    height: auto;
+    width: 1,91vw;
 }
