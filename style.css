@@ -42,3 +42,7 @@ body {
     height: auto;
     width: 1.91vw;
 }
+
+.d-none {
+    display: none;
+}
