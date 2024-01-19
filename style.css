@@ -18,6 +18,11 @@ body {
     margin: 8px;
 }
 
+.planets {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
 
 .planet {
     width: 40%;
