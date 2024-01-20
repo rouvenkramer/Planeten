@@ -13,46 +13,42 @@
 
 </head>
 
-<body>
+<body onload="divBorders()">
     <main>
-        <div>
-            <div class="planetLinks">
-                <a href="#">Mercury</a>
-                <a href="#">Venus</a>
-                <a href="#">Earth</a>
-                <a href="#">Moon</a>
-                <a href="#">Mars</a>
-                <a href="#">Jupiter</a>
-                <a href="#">Saturn</a>
-                <a href="#">Uranus</a>
-                <a href="#">Neptune</a>
-                <a href="#">Pluto</a>
+
+        <div class="planetLinks">
+            <a href="#" onclick="planet2('mercury')">Mercury</a>
+            <a href="#" onclick="planet2('venus')">Venus</a>
+            <a href="#">Earth</a>
+            <a href="#" onclick="planet2('moon')">Moon</a>
+            <a href="#" onclick="planet2('mars')">Mars</a>
+            <a href="#" onclick="planet2('jupiter')">Jupiter</a>
+            <a href="#" onclick="planet2('saturn')">Saturn</a>
+            <a href="#" onclick="planet2('uranus')">Uranus</a>
+            <a href="#" onclick="planet2('neptune')">Neptune</a>
+            <a href="#" onclick="planet2('pluto')">Pluto</a>
+        </div>
+
+        <div class="planets">
+
+            <div id="planet1">
+                <div class="earth">
+                    <img class="planetImage" src="./img/earth.jpg" alt="">
+                </div>
             </div>
 
-            <div class="planets">
-                <div id="planet1" class="planet">
-                    <div class="earth">
-                        <img class="planetImage" src="./img/earth.jpg" alt="">
-                    </div>
-                    <h1>Earth</h1>
+
+            <!-- show Planet with Variable from clicked link -->
+            <div id="planet2">
+                <div>
+                    <img id="planet2image" class="jupiter" src="./img/jupiter.jpg" alt="">
                 </div>
-                <!-- work with 1 DIV for all planets and use d-none onclick funtion to display -->
-                <div id="planet2" class="planet">
-                    <div>
-                        <img id="mercury" class="planetImage mercury" src="./img/mercury.jpg" alt="">
-                        <img id="venus" class="planetImage venus d-none" src="./img/venus.jpg" alt="">
-                        <img id="moon" class="planetImage moon d-none" src="./img/moon.jpg" alt="">
-                        <img id="mars" class="planetImage mars d-none" src="./img/mars.jpg" alt="">
-                        <img id="jupiter" class="planetImage jupiter d-none" src="./img/jupiter.jpg" alt="">
-                        <img id="saturn" class="planetImage saturn d-none" src="./img/saturn.jpg" alt="">
-                        <img id="uranus" class="planetImage uranus d-none" src="./img/uranus.jpg" alt="">
-                        <img id="neptune" class="planetImage neptune d-none" src="./img/neptune.jpg" alt="">
-                        <img id="pluto" class="planetImage pluto d-none" src="./img/pluto.jpg" alt="">
-                    </div>
-                    <h1>Mercury</h1>
-                </div>
+
             </div>
+
+
         </div>
+
     </main>
 
 </body>

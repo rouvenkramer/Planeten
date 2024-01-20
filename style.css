@@ -5,6 +5,12 @@ body {
     color: lime;
 }
 
+main {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .planetLinks {
     box-sizing: border-box;
     padding: 5%;
@@ -19,15 +25,18 @@ body {
 }
 
 .planets {
+    flex-grow: 1;
     display: flex;
     justify-content: center;
-    align-items: baseline;
- 
+    gap: 50px;
+    align-items: center;
+    margin-inline: 10%;
+
 }
 
-.planet {
-    width: 40%;
-    height:300px;
+
+.planetOne {
+    width: 5vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,14 +48,55 @@ body {
     width: 100%;
 }
 
+
+.mercury {
+    height: auto;
+    width: 1.91vw;
+}
+
+.venus {
+    height: auto;
+    width: 4.75vw;
+}
+
 .earth {
     height: auto;
     width: 5vw;
 }
 
-.mercury {
+.moon {
     height: auto;
-    width: 1.91vw;
+    width: 1.36vw;
+}
+
+.mars {
+    height: auto;
+    width: 2.66vw;
+}
+
+.jupiter {
+    height: auto;
+    width: 54.87vw;
+}
+
+.saturn {
+    height: auto;
+    width: 45.70vw;
+}
+
+.uranus {
+    height: auto;
+    width: 19.90vw;
+}
+
+.neptune {
+    height: auto;
+    width: 19.32vw;
+}
+
+.pluto {
+    height: auto;
+    width: 0.93vw;
 }
 
 .d-none {
